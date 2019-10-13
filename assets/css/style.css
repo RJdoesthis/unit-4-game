@@ -1,0 +1,51 @@
+/* Game styling*/
+
+h2 {
+    color: white;
+    background-color:orange;
+}
+
+p {
+    border: solid;
+}
+
+.CompNumber{
+    border: solid;
+    float: left;
+    background-color: green;
+    color: white;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.WinsLoses{
+    border: solid;
+    float: left;
+    background-color: green;
+    color: white;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.crystals{
+    clear: both
+}
+
+.TotalScoreTitle{
+    border: solid;
+    float: left;
+    background-color: teal;
+    color: white;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.UserScore{
+    clear:both;
+    border: solid;
+    float: left;
+    background-color: teal;
+    color: white;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Game Time!</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+
+    <div class=containter>
+        <div class=header>
+            <h2>Crystals Collector!</h2>
+        </div>
+
+        <div class=instructions>
+            <div class="row">
+                <div class="col-md-6">
+
+                    <p>
+                        You will be given a random number at the start of the game.
+                        <br>
+
+                        There are four crystals below. By clicking on a crystal you will ad a specific amount of points
+                        to
+                        your
+                        total score.
+                        <br>
+                        You win the game by matching your total score to random number, you lose the game if your totals
+                        core
+                        goes above the random number.
+
+                        The value of each crystal is hidden from you until you click on it.
+
+                        Each time when the game starts, the game will cahnge the values of each crystal
+                    </p>
+                </div>
+            </div>
+            <div class="CompNumber" id="RandomNumber">
+                placeholder
+                <!--Comuper random number will be generated here-->
+            </div>
+
+            <div class=WinsLoses>
+                wins: 0
+                losses: 0
+            </div>
+
+            <div class=crystals>
+                <button type="button" class="btn btn-primary">Button1</button>
+                <button type="button" class="btn btn-secondary">Button1</button>
+                <button type="button" class="btn btn-success">button3</button>
+                <button type="button" class="btn btn-danger">button4</button>
+
+            </div>
+
+            <div class="TotalScoreTitle">
+                Your total score is:
+            </div>
+
+            <div class="UserScore" id="CrystalAddUp">
+                Placeholder
+            </div>
+
+
+</body>
+
+</html>
