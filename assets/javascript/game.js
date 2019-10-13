@@ -7,3 +7,4 @@ function alertMe() {
     alert('The button has been clicked!');
 
 }
+
