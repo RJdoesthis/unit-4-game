@@ -15,26 +15,38 @@ $(document).ready(function () {
     let wins = 0;
     let losses = 0;
 
+    //total for all clicks
+    let totalscore = 0;
+
     //below are the click events for each button type
     $('#one').on('click', function () {
         let uservalue = num1;
         console.log(num1);
+        totalscore = totalscore + num1;
+        $('#totalscore').text(totalscore);
+
     })
 
     $('#two').on('click', function () {
         let uservalue = num2;
         console.log(num2);
+        totalscore = totalscore + num2;
+        $('#totalscore').text(totalscore);
     })
 
     $('#three').on('click', function () {
         let uservalue = num3;
         console.log(num3);
+        totalscore = totalscore + num3;
+        $('#totalscore').text(totalscore);
 
     })
 
     $('#four').on('click', function () {
         let uservalue = num4;
         console.log(num4);
+        totalscore = totalscore + num3;
+        $('#totalscore').text(totalscore);
 
     })
 
